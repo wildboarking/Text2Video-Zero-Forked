@@ -22,6 +22,8 @@ prettytable==3.6.0
 scikit_image==0.19.3
 scipy==1.10.1
 tensorboardX==2.6
+torch==1.13.1
+torchvision==0.14.1
 torchmetrics==0.6.0
 tqdm==4.64.1
 timm==0.6.12
