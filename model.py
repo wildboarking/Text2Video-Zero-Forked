@@ -458,7 +458,8 @@ class Model:
                     processor=self.text2video_attn_proc)
         self.generator.manual_seed(seed)
 
-        added_prompt = "high quality, HD, 8K, trending on artstation, high focus, dramatic lighting"
+        #added_prompt = "high quality, HD, 8K, trending on artstation, high focus, dramatic lighting"
+        added_prompt = "high quality, HD, broad view, realisic"
         negative_prompts = 'longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer difits, cropped, worst quality, low quality, deformed body, bloated, ugly, unrealistic'
 
         prompt = prompt.rstrip()
