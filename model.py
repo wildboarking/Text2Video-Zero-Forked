@@ -460,7 +460,7 @@ class Model:
 
         #added_prompt = "high quality, HD, 8K, trending on artstation, high focus, dramatic lighting"
         added_prompt = "high quality, HD, broad view, realisic"
-        negative_prompts = 'longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer difits, cropped, worst quality, low quality, deformed body, bloated, ugly, unrealistic'
+        #negative_prompts = 'longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer difits, cropped, worst quality, low quality, deformed body, bloated, ugly, unrealistic'
 
         prompt = prompt.rstrip()
         if len(prompt) > 0 and (prompt[-1] == "," or prompt[-1] == "."):
